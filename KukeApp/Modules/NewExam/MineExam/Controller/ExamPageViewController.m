@@ -106,6 +106,7 @@
     [self loadData];
 }
 - (void)initPageViewController:(NSInteger)titleCount {
+    
     self.config = [XLPageViewControllerConfig defaultConfig];
     
     if (titleCount <= 1 ) {
@@ -146,6 +147,7 @@
 - (UIViewController *)pageViewController:(XLPageViewController *)pageViewController viewControllerForIndex:(NSInteger)index {
     ExamTableViewController *vc = [[ExamTableViewController alloc] init];
     vc.exam_cate_id = self.cateIDs[index];
+    vc.number = self.titles.count;
     return vc;
 }
 

@@ -39,7 +39,12 @@
     
     [self loadData];
 
-    self.tableView.frame = CGRectMake(0, 0, screenWidth(), screenHeight()-50- UI_navBar_Height);
+    if (self.number == 1) {
+        self.tableView.frame = CGRectMake(0, 0, screenWidth(), screenHeight()- UI_navBar_Height);
+    }else{
+        self.tableView.frame = CGRectMake(0, 0, screenWidth(), screenHeight()-50- UI_navBar_Height);
+    }
+    
     [self.tableView registerNib:[UINib nibWithNibName:@"MyCourseListTableViewCell" bundle:nil] forCellReuseIdentifier:@"MyCourseListTableViewCell"];
     
 

@@ -534,12 +534,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Purchase/IAPManager.m"
-                  timestampString = "590416250.048038"
+                  timestampString = "590427024.66369"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "326"
                   endingLineNumber = "326"
-                  offsetFromSymbolStart = "472">
+                  offsetFromSymbolStart = "528">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -549,7 +549,7 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Purchase/IAPManager.m"
-                  timestampString = "590416250.049858"
+                  timestampString = "590427024.665484"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "328"
@@ -838,12 +838,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/FeedbackViewController.m"
-                  timestampString = "590416250.102703"
+                  timestampString = "590427024.717754"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "279"
                   endingLineNumber = "279"
-                  offsetFromSymbolStart = "885">
+                  offsetFromSymbolStart = "852">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -853,7 +853,7 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/FeedbackViewController.m"
-                  timestampString = "590416250.104534"
+                  timestampString = "590427024.720068"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "281"
@@ -886,12 +886,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/FeedbackViewController.m"
-                  timestampString = "590416250.109242"
+                  timestampString = "590427024.737245"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "254"
                   endingLineNumber = "254"
-                  offsetFromSymbolStart = "1161">
+                  offsetFromSymbolStart = "1256">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -901,7 +901,7 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/FeedbackViewController.m"
-                  timestampString = "590416250.1110719"
+                  timestampString = "590427024.73915"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "256"
@@ -982,12 +982,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Course/Controller/NewCourseViewController/SearchResultListViewController.m"
-                  timestampString = "590416250.123961"
+                  timestampString = "590427024.754824"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "315"
                   endingLineNumber = "315"
-                  offsetFromSymbolStart = "1042">
+                  offsetFromSymbolStart = "808">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -997,12 +997,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Course/Controller/NewCourseViewController/SearchResultListViewController.m"
-                  timestampString = "590416250.125885"
+                  timestampString = "590427024.75685"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "315"
                   endingLineNumber = "315"
-                  offsetFromSymbolStart = "15">
+                  offsetFromSymbolStart = "16">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1158,12 +1158,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/Download/View/ZMCusCommentListView.m"
-                  timestampString = "590416250.156103"
+                  timestampString = "590427024.787019"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "373"
                   endingLineNumber = "373"
-                  offsetFromSymbolStart = "739">
+                  offsetFromSymbolStart = "728">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -1173,12 +1173,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/Download/View/ZMCusCommentListView.m"
-                  timestampString = "590416250.158599"
+                  timestampString = "590427024.789155"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "373"
                   endingLineNumber = "373"
-                  offsetFromSymbolStart = "802">
+                  offsetFromSymbolStart = "808">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1494,12 +1494,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Login/LoginViewCell.m"
-                  timestampString = "590416250.22709"
+                  timestampString = "590427024.858572"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "421"
                   endingLineNumber = "421"
-                  offsetFromSymbolStart = "36">
+                  offsetFromSymbolStart = "56">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -1509,12 +1509,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Login/LoginViewCell.m"
-                  timestampString = "590416250.228899"
+                  timestampString = "590427024.860425"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "422"
                   endingLineNumber = "422"
-                  offsetFromSymbolStart = "78">
+                  offsetFromSymbolStart = "84">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2182,12 +2182,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/NewExam/MineExam/ViewModel/ExamListViewModel.m"
-                  timestampString = "590416250.351999"
+                  timestampString = "590427024.993093"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "123"
                   endingLineNumber = "123"
-                  offsetFromSymbolStart = "802">
+                  offsetFromSymbolStart = "752">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -2197,7 +2197,7 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/NewExam/MineExam/ViewModel/ExamListViewModel.m"
-                  timestampString = "590416250.353875"
+                  timestampString = "590427024.995084"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "125"
@@ -2262,12 +2262,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/HomePage/Controller/NewsNoticeViewController.m"
-                  timestampString = "590416250.360127"
+                  timestampString = "590427025.002957"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "120"
                   endingLineNumber = "120"
-                  offsetFromSymbolStart = "672">
+                  offsetFromSymbolStart = "696">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -2277,7 +2277,7 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/HomePage/Controller/NewsNoticeViewController.m"
-                  timestampString = "590416250.362003"
+                  timestampString = "590427025.004988"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "120"
@@ -2292,12 +2292,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/HomePage/Controller/NewsNoticeViewController.m"
-                  timestampString = "590416250.3639539"
+                  timestampString = "590427025.006952"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "120"
                   endingLineNumber = "120"
-                  offsetFromSymbolStart = "12">
+                  offsetFromSymbolStart = "16">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2437,12 +2437,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/NewExam/MineExam/Controller/ExamProposeGoodsListViewController.m"
-                  timestampString = "590416250.396374"
+                  timestampString = "590427025.050179"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "47"
                   endingLineNumber = "47"
-                  offsetFromSymbolStart = "329">
+                  offsetFromSymbolStart = "352">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -2452,12 +2452,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/NewExam/MineExam/Controller/ExamProposeGoodsListViewController.m"
-                  timestampString = "590416250.398214"
+                  timestampString = "590427025.052397"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "47"
                   endingLineNumber = "47"
-                  offsetFromSymbolStart = "12">
+                  offsetFromSymbolStart = "16">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2501,12 +2501,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Course/Controller/NewCourseViewController/SearchResultListViewController.m"
-                  timestampString = "590416250.406518"
+                  timestampString = "590427025.076496"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "132"
                   endingLineNumber = "132"
-                  offsetFromSymbolStart = "2343">
+                  offsetFromSymbolStart = "2320">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -2516,12 +2516,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Course/Controller/NewCourseViewController/SearchResultListViewController.m"
-                  timestampString = "590416250.408376"
+                  timestampString = "590427025.078508"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "134"
                   endingLineNumber = "134"
-                  offsetFromSymbolStart = "47">
+                  offsetFromSymbolStart = "48">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2719,12 +2719,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/MyBalanceViewController.m"
-                  timestampString = "590416250.450864"
+                  timestampString = "590427025.13624"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "86"
                   endingLineNumber = "86"
-                  offsetFromSymbolStart = "586">
+                  offsetFromSymbolStart = "648">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -2734,12 +2734,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/MyBalanceViewController.m"
-                  timestampString = "590416250.452911"
+                  timestampString = "590427025.138132"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "88"
                   endingLineNumber = "88"
-                  offsetFromSymbolStart = "47">
+                  offsetFromSymbolStart = "48">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -2831,12 +2831,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/MyBalanceViewController.m"
-                  timestampString = "590416250.472403"
+                  timestampString = "590427025.15958"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "112"
                   endingLineNumber = "112"
-                  offsetFromSymbolStart = "709">
+                  offsetFromSymbolStart = "756">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -2846,12 +2846,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/MyBalanceViewController.m"
-                  timestampString = "590416250.474264"
+                  timestampString = "590427025.161473"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "112"
                   endingLineNumber = "112"
-                  offsetFromSymbolStart = "999">
+                  offsetFromSymbolStart = "996">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -2861,12 +2861,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Mine/Controller/MyBalanceViewController.m"
-                  timestampString = "590416250.476195"
+                  timestampString = "590427025.1633821"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "112"
                   endingLineNumber = "112"
-                  offsetFromSymbolStart = "12">
+                  offsetFromSymbolStart = "16">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -3166,12 +3166,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Pay/PayMentViewController.m"
-                  timestampString = "590416250.54001"
+                  timestampString = "590427025.2391371"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "256"
                   endingLineNumber = "256"
-                  offsetFromSymbolStart = "831">
+                  offsetFromSymbolStart = "816">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -3181,12 +3181,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Pay/PayMentViewController.m"
-                  timestampString = "590416250.542181"
+                  timestampString = "590427025.241021"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "256"
                   endingLineNumber = "256"
-                  offsetFromSymbolStart = "15">
+                  offsetFromSymbolStart = "20">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -3230,12 +3230,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Pay/PayMentViewController.m"
-                  timestampString = "590416250.550675"
+                  timestampString = "590427025.251591"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "292"
                   endingLineNumber = "292"
-                  offsetFromSymbolStart = "1845">
+                  offsetFromSymbolStart = "1804">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -3245,7 +3245,7 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Pay/PayMentViewController.m"
-                  timestampString = "590416250.55322"
+                  timestampString = "590427025.253585"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "294"
@@ -3308,12 +3308,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Course/Controller/CourseIntroduce/CourseDetailViewController.m"
-                  timestampString = "590416250.562258"
+                  timestampString = "590427025.2661231"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "524"
                   endingLineNumber = "524"
-                  offsetFromSymbolStart = "3491">
+                  offsetFromSymbolStart = "3092">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -3323,12 +3323,12 @@
                   moduleName = "KukeApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/Course/Controller/CourseIntroduce/CourseDetailViewController.m"
-                  timestampString = "590416250.564152"
+                  timestampString = "590427025.268657"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "527"
                   endingLineNumber = "527"
-                  offsetFromSymbolStart = "44">
+                  offsetFromSymbolStart = "48">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -3410,6 +3410,86 @@
             startingLineNumber = "123"
             endingLineNumber = "123"
             landmarkName = "+setCanAutoHide:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KukeApp/Modules/HomePage/Controller/HomePageViewController.m"
+            timestampString = "590425607.6998889"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "840"
+            endingLineNumber = "840"
+            landmarkName = "-queryVersion"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KukeApp/Modules/HomePage/Controller/HomePageViewController.m"
+            timestampString = "590425607.70052"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "886"
+            endingLineNumber = "886"
+            landmarkName = "-queryVersion"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__38-[HomePageViewController queryVersion]_block_invoke_2"
+                  moduleName = "KukeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/HomePage/Controller/HomePageViewController.m"
+                  timestampString = "590427025.302981"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "886"
+                  endingLineNumber = "886"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__38-[HomePageViewController queryVersion]_block_invoke_9"
+                  moduleName = "KukeApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuke/Desktop/%E5%BA%93%E8%AF%BE%E7%BD%91%E6%A0%A1/KukeApp/KukeApp/Modules/HomePage/Controller/HomePageViewController.m"
+                  timestampString = "590427025.304939"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "888"
+                  endingLineNumber = "888"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KukeApp/AppDelegate/AppDelegate.m"
+            timestampString = "590427023.868209"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "-application:didFinishLaunchingWithOptions:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

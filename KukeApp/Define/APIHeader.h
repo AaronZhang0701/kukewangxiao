@@ -10,10 +10,13 @@
 #define APIHeader_h
 
 //服务器地址
-//#define SERVER_HOST     @"https://api.kuke99.com"
-//#define SERVER_HOSTM  @"https://m.kuke99.com"
-//#define SERVER_HOSTPC  @"https://www.kuke99.com"
+#define SERVER_HOST     @"https://api.kuke99.com"
+#define SERVER_HOSTM  @"https://m.kuke99.com"
+#define SERVER_HOSTPC  @"https://www.kuke99.com"
 
+//#define SERVER_HOSTPC @"https://test.kuke99.com"
+//#define SERVER_HOSTM @"https://testm.kuke99.com"
+//#define SERVER_HOST @"https://testapi.kuke99.com"
 
 
 //#define SERVER_HOST     @"https://testapi.kuke99.com"
@@ -21,9 +24,9 @@
 //#define SERVER_HOSTPC  @"https://test.kuke99.com"
 
 
-#define SERVER_HOST     @"https://api.kukewang.com"
-#define SERVER_HOSTM  @"https://m.kukewang.com"
-#define SERVER_HOSTPC  @"https://www.kukewang.com"
+//#define SERVER_HOST     @"https://api.kukewang.com"
+//#define SERVER_HOSTM  @"https://m.kukewang.com"
+//#define SERVER_HOSTPC  @"https://www.kukewang.com"
 
 //// 正式环境
 //app接口： https://api.kuke99.com
