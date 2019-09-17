@@ -57,10 +57,19 @@
         [self.collectionBtn br_layoutButtonWithEdgeInsetsStyle:(BRButtonEdgeInsetsStyleTop) imageTitleSpace:2];
     }
     if ([data[@"my_click_distribute"] isEqualToString:@"1"]) {//分销
-        [self addSubview:self.rightBtn];
-        self.rightBtn.backgroundColor = CNavBgColor;
-        [self.rightBtn setTitle:@"立即赚钱" forState:(UIControlStateNormal)];
-        clickAction = @"立即赚钱";
+        
+        if ([data[@"is_sell"] isEqualToString:@"1"]) {//可售
+            [self addSubview:self.rightBtn];
+            self.rightBtn.backgroundColor = CNavBgColor;
+            [self.rightBtn setTitle:@"立即赚钱" forState:(UIControlStateNormal)];
+            clickAction = @"立即赚钱";
+        }else{
+            [self addSubview:self.rightBtn];
+            self.rightBtn.backgroundColor = [UIColor colorWithHexString:@"#8A8A8A"];
+            [self.rightBtn setTitle:@"暂不可购买" forState:(UIControlStateNormal)];
+            clickAction = @"暂不支持购买";
+        }
+        
     }else{//不是分销
         if ([data[@"is_buy"] isEqualToString:@"1"]) {//已经购买
 

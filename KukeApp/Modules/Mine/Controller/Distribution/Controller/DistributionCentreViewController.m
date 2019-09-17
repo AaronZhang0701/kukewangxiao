@@ -127,13 +127,13 @@
 //                        self.headerView.ranksImage.hidden = YES;
 //                    }
                     
-                    NSMutableAttributedString *attributeStr = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@",responseObject[@"data"][@"brokerage_balance"]]];
+                    NSMutableAttributedString *attributeStr = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"¥%@",responseObject[@"data"][@"brokerage_balance"]]];
                     [attributeStr addAttributes:@{NSFontAttributeName: [UIFont systemFontOfSize:20]} range:NSMakeRange(0, 1)];
                     self.headerView.availableMoney.attributedText = attributeStr;
-                    [self.headerView.totalMoney setTitle:[NSString stringWithFormat:@"总计收益：%@",responseObject[@"data"][@"brokerage_total"]] forState:(UIControlStateNormal)];
-                    [self.headerView.waitMoney setTitle:[NSString stringWithFormat:@"待结算收益：%@",responseObject[@"data"][@"brokerage_unpaid"]] forState:(UIControlStateNormal)];
+                    [self.headerView.totalMoney setTitle:[NSString stringWithFormat:@"总计收益：¥%@",responseObject[@"data"][@"brokerage_total"]] forState:(UIControlStateNormal)];
+                    [self.headerView.waitMoney setTitle:[NSString stringWithFormat:@"待结算收益：¥%@",responseObject[@"data"][@"brokerage_unpaid"]] forState:(UIControlStateNormal)];
                     
-                    NSMutableAttributedString *attributeStr1 = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"%@",responseObject[@"data"][@"order_total"]]];
+                    NSMutableAttributedString *attributeStr1 = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"¥%@",responseObject[@"data"][@"order_total"]]];
                     [attributeStr1 addAttributes:@{NSFontAttributeName: [UIFont systemFontOfSize:13]} range:NSMakeRange(0, 1)];
                     self.headerView.spreadLab.attributedText = attributeStr1;
                     self.headerView.totalRequest.text = responseObject[@"data"][@"invite_total"];

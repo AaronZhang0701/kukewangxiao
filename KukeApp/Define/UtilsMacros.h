@@ -180,7 +180,7 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 //是否是审核状态
 #define KIsAudit @"IsAudit"
 //审核值
-#define KAuditNumnber @"28"
+#define KAuditNumnber @"29"
 //登录成功刷新上一级页面数据
 #define KNotificationLoginUpdata @"KNotificationLoginUpdata"
 //登录状态改变通知

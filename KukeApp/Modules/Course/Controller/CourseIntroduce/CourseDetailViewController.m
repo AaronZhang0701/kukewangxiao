@@ -1199,7 +1199,7 @@
             }
             return self.headerView;
         }else{
-            if ([self.model.distribution.distribute_status isEqualToString:@"1"]) {
+            if ([self.model.distribution.distribute_status isEqualToString:@"1"] && [self.model.is_sell isEqualToString:@"1"]) {
                 [self.userHeaderView addSubview:self.distributeBtn];
             }
             
