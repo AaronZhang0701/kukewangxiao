@@ -846,6 +846,7 @@
                         
                         UploadNoticeView *uploadView = [[UploadNoticeView alloc]initWithFrame:CGRectMake(0, 0,314,370)];
                         uploadView.contentLab.text = responseObject[@"data"][@"content"];
+                        uploadView.closeBtn.hidden = NO;
                         CGPoint showCenter = CGPointMake(SCREEN_WIDTH/2,SCREEN_HEIGHT-self.view.height/2-50);
                         [SGBrowserView showMoveView:uploadView moveToCenter:showCenter];
                         uploadView.closeBlock = ^{
@@ -859,14 +860,19 @@
                 }
                 
             }else{//强制更新每次都提醒
+                
                 dispatch_async(dispatch_get_main_queue(), ^{
                     
                     UploadNoticeView *uploadView = [[UploadNoticeView alloc]initWithFrame:CGRectMake(0, 0,314,370)];
                     uploadView.contentLab.text = responseObject[@"data"][@"content"];
+               
                     CGPoint showCenter = CGPointMake(SCREEN_WIDTH/2,SCREEN_HEIGHT-self.view.height/2-50);
                     [SGBrowserView showMoveView:uploadView moveToCenter:showCenter];
+                    uploadView.closeBtn.hidden = YES;
+                    [SGBrowserView setCanAutoHide:NO];
                     uploadView.closeBlock = ^{
-                        [SGBrowserView hide];
+
+                        
                     };
                     uploadView.uploadBlock = ^{
                         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/cn/app/jie-zou-da-shi/id1110639107?mt=8"]];

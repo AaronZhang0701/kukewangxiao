@@ -15,6 +15,7 @@ typedef void(^CloseBlock)();
 @property (weak, nonatomic) IBOutlet UILabel *contentLab;
 @property (weak, nonatomic) IBOutlet UIImageView *imageBackView;
 @property (nonatomic ,copy) UploadBlock uploadBlock;
+@property (weak, nonatomic) IBOutlet UIButton *closeBtn;
 @property (nonatomic ,copy) CloseBlock closeBlock;
 @end
 

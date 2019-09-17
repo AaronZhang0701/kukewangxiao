@@ -123,7 +123,7 @@
                     break;
             }
         }else{//未购买
-            if ([data[@"my_ac_type"] isEqualToString:@"3"]) {//团购
+            if ([data[@"my_ac_type"] isEqualToString:@"3"] || [data[@"group_sign"] isEqualToString:@"1"]) {//团购
      
                 if ([data[@"is_sell"] isEqualToString:@"1"]) {//可售
                     if ([data[@"now_goods_group_status"] isEqualToString:@"1"]) {//0未参团 1参团中待分享
@@ -158,7 +158,7 @@
                     [self.rightBtn setTitle:@"暂不可购买" forState:(UIControlStateNormal)];
                     clickAction = @"暂不支持购买";
                 }
-            }else if ([data[@"my_ac_type"] isEqualToString:@"2"]){//秒杀
+            }else if ([data[@"my_ac_type"] isEqualToString:@"2"] || [data[@"seckill_flag"] isEqualToString:@"1"] ){//秒杀
                 if ([data[@"is_sell"] isEqualToString:@"1"]) {//可售
                     if ([data[@"seckill_goods"][@"seckill_status"] isEqualToString:@"0"]) {//即将开抢
                         [self addSubview:self.rightBtn];

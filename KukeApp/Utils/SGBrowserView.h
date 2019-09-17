@@ -68,5 +68,5 @@
 - (void)setCanAutoHide:(BOOL)canAutoHide;
 + (void)setCanAutoHide:(BOOL)canAutoHide;
 
-
++ (void)setUserInteractionEnabled:(BOOL)userInteractionEnabled;
 @end

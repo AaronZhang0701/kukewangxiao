@@ -120,6 +120,7 @@
 
 + (void)setCanAutoHide:(BOOL)canAutoHide{
     SGBrowserView *browserView = [[self class] searchSelfInWindow];
+    browserView.canAutoHide = canAutoHide;
     if (browserView) [browserView setCanAutoHide:canAutoHide];
 }
 
