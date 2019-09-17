@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="226" id="KGk-i7-Jjw" customClass="HomePageExtensionTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="226"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="225.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btx-ag-ltQ">
+                        <rect key="frame" x="10" y="11" width="147.5" height="99"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="99" id="Ahp-It-G4w"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="今日特价"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cM3-BU-xMK">
+                        <rect key="frame" x="163" y="11" width="147" height="99"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="99" id="bc1-9a-7Ai"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="开团赢礼"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbK-Qf-IMm">
+                        <rect key="frame" x="10" y="118" width="148" height="99"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="99" id="9dy-m2-fb2"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="领券中心"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJH-Hv-gVD">
+                        <rect key="frame" x="163" y="118" width="148" height="99"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="99" id="AEq-sM-SG1"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="名师直播"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KJH-Hv-gVD" firstAttribute="top" secondItem="cM3-BU-xMK" secondAttribute="bottom" constant="8" id="02t-yz-Eie"/>
+                    <constraint firstItem="Btx-ag-ltQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="Auc-Vd-q9f"/>
+                    <constraint firstItem="cM3-BU-xMK" firstAttribute="width" secondItem="Btx-ag-ltQ" secondAttribute="width" id="FZS-Ez-SsC"/>
+                    <constraint firstAttribute="trailing" secondItem="cM3-BU-xMK" secondAttribute="trailing" constant="10" id="Ff7-b5-ajA"/>
+                    <constraint firstAttribute="trailing" secondItem="KJH-Hv-gVD" secondAttribute="trailing" constant="9" id="G8c-Q2-Y2A"/>
+                    <constraint firstItem="KJH-Hv-gVD" firstAttribute="leading" secondItem="dbK-Qf-IMm" secondAttribute="trailing" constant="5" id="U5q-WP-ADu"/>
+                    <constraint firstItem="KJH-Hv-gVD" firstAttribute="leading" secondItem="dbK-Qf-IMm" secondAttribute="trailing" constant="5" id="VDP-nS-SM2"/>
+                    <constraint firstItem="dbK-Qf-IMm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="bz4-y6-Fdo"/>
+                    <constraint firstItem="cM3-BU-xMK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="hN0-HT-dba"/>
+                    <constraint firstItem="cM3-BU-xMK" firstAttribute="leading" secondItem="Btx-ag-ltQ" secondAttribute="trailing" constant="5" id="rzI-g9-kgs"/>
+                    <constraint firstItem="Btx-ag-ltQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="spJ-sG-dIf"/>
+                    <constraint firstItem="cM3-BU-xMK" firstAttribute="leading" secondItem="Btx-ag-ltQ" secondAttribute="trailing" constant="5" id="uNd-TB-Zf6"/>
+                    <constraint firstItem="dbK-Qf-IMm" firstAttribute="top" secondItem="Btx-ag-ltQ" secondAttribute="bottom" constant="8" id="xkx-qH-cYA"/>
+                    <constraint firstItem="KJH-Hv-gVD" firstAttribute="width" secondItem="dbK-Qf-IMm" secondAttribute="width" id="y5K-gJ-liO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="25" y="143"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="今日特价" width="168" height="80"/>
+        <image name="名师直播" width="168" height="80"/>
+        <image name="开团赢礼" width="168" height="80"/>
+        <image name="领券中心" width="168" height="80"/>
+    </resources>
+</document>

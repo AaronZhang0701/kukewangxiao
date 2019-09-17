@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PromptCell" rowHeight="52" id="KGk-i7-Jjw" customClass="PromptCell">
+            <rect key="frame" x="0.0" y="0.0" width="396" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="396" height="51.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPO-ph-L1P">
+                        <rect key="frame" x="20" y="0.0" width="336" height="51.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pGl-jC-ohk">
+                        <rect key="frame" x="361" y="15" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="0ig-K6-Qfl"/>
+                            <constraint firstAttribute="height" constant="20" id="wXm-Jk-8eK"/>
+                        </constraints>
+                        <state key="normal" image="未选"/>
+                        <state key="selected" image="选择"/>
+                        <connections>
+                            <action selector="selectAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="HTr-Uc-zJS"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pGl-jC-ohk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-0.75" id="KHk-M0-mVs"/>
+                    <constraint firstItem="YPO-ph-L1P" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Mcd-YE-wsH"/>
+                    <constraint firstItem="YPO-ph-L1P" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="UZa-m4-Qpc"/>
+                    <constraint firstAttribute="trailing" secondItem="pGl-jC-ohk" secondAttribute="trailing" constant="15" id="aTb-hH-Ln6"/>
+                    <constraint firstItem="pGl-jC-ohk" firstAttribute="leading" secondItem="YPO-ph-L1P" secondAttribute="trailing" constant="5" id="cAf-cJ-eb2"/>
+                    <constraint firstAttribute="bottom" secondItem="YPO-ph-L1P" secondAttribute="bottom" id="uRN-Jg-evr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="selectBtn" destination="pGl-jC-ohk" id="xHr-T6-pvj"/>
+                <outlet property="titleLab" destination="YPO-ph-L1P" id="EQ6-7V-d0P"/>
+            </connections>
+            <point key="canvasLocation" x="102.40000000000001" y="50.374812593703155"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="未选" width="20" height="20"/>
+        <image name="选择" width="20" height="20"/>
+    </resources>
+</document>

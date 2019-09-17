@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="104" id="KGk-i7-Jjw" customClass="MineCourseTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIQ-KK-MsG">
+                        <rect key="frame" x="0.0" y="0.0" width="69" height="79.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" image="个人中心-已购课程">
+                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="noPaymentAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="GIn-gc-mLy"/>
+                        </connections>
+                    </button>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5t-cA-fJe">
+                        <rect key="frame" x="42" y="13" width="14" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.90196078430000004" green="0.12941176469999999" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDt-i9-Z5e">
+                        <rect key="frame" x="137.5" y="0.0" width="69" height="79.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" image="个人中心-已购课程">
+                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="noReceiveAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="y2h-IR-iab"/>
+                        </connections>
+                    </button>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hej-Ta-Loq">
+                        <rect key="frame" x="180" y="13" width="14" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.90196078430000004" green="0.12941176469999999" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="28E-s1-VWk">
+                        <rect key="frame" x="275" y="0.0" width="69" height="79.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" image="个人中心-已购课程">
+                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="orderAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Iek-je-2mQ"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCP-cn-ral">
+                        <rect key="frame" x="274" y="15" width="1" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4U-4w-k3n">
+                        <rect key="frame" x="206.5" y="0.0" width="68.5" height="79.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" image="个人中心-已购课程">
+                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="afterSaleAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FIb-BW-gro"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fc-Ce-dkz">
+                        <rect key="frame" x="69" y="0.0" width="68.5" height="79.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" image="个人中心-已购课程">
+                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="noSendAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Ace-09-biT"/>
+                        </connections>
+                    </button>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYD-8O-KtT">
+                        <rect key="frame" x="110" y="13" width="14" height="14"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.90196078430000004" green="0.12941176469999999" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1Fc-Ce-dkz" firstAttribute="leading" secondItem="QIQ-KK-MsG" secondAttribute="trailing" id="0OZ-KK-LVh"/>
+                    <constraint firstItem="LDt-i9-Z5e" firstAttribute="leading" secondItem="1Fc-Ce-dkz" secondAttribute="trailing" id="20O-Ik-Naw"/>
+                    <constraint firstItem="28E-s1-VWk" firstAttribute="leading" secondItem="U4U-4w-k3n" secondAttribute="trailing" id="2Ah-Cz-Elh"/>
+                    <constraint firstItem="U4U-4w-k3n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="AY0-9u-XJ2"/>
+                    <constraint firstItem="1Fc-Ce-dkz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Alj-rr-Lpf"/>
+                    <constraint firstItem="28E-s1-VWk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="INj-eS-D66"/>
+                    <constraint firstItem="QIQ-KK-MsG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Kc1-CJ-gwr"/>
+                    <constraint firstAttribute="bottom" secondItem="LDt-i9-Z5e" secondAttribute="bottom" id="Q14-4f-5va"/>
+                    <constraint firstAttribute="bottom" secondItem="28E-s1-VWk" secondAttribute="bottom" id="Rhn-7d-usU"/>
+                    <constraint firstAttribute="bottom" secondItem="U4U-4w-k3n" secondAttribute="bottom" id="S90-3p-Q30"/>
+                    <constraint firstItem="LDt-i9-Z5e" firstAttribute="width" secondItem="QIQ-KK-MsG" secondAttribute="width" id="Vs4-rX-0au"/>
+                    <constraint firstAttribute="bottom" secondItem="QIQ-KK-MsG" secondAttribute="bottom" id="Vvx-J4-rrt"/>
+                    <constraint firstItem="U4U-4w-k3n" firstAttribute="leading" secondItem="LDt-i9-Z5e" secondAttribute="trailing" id="dxA-yE-3iM"/>
+                    <constraint firstItem="28E-s1-VWk" firstAttribute="width" secondItem="QIQ-KK-MsG" secondAttribute="width" id="gXd-Fd-HPH"/>
+                    <constraint firstItem="U4U-4w-k3n" firstAttribute="width" secondItem="QIQ-KK-MsG" secondAttribute="width" id="gaO-JZ-wn2"/>
+                    <constraint firstItem="LDt-i9-Z5e" firstAttribute="leading" secondItem="1Fc-Ce-dkz" secondAttribute="trailing" id="jDb-PQ-thQ"/>
+                    <constraint firstAttribute="trailing" secondItem="28E-s1-VWk" secondAttribute="trailing" id="lAy-qd-KEM"/>
+                    <constraint firstItem="28E-s1-VWk" firstAttribute="leading" secondItem="U4U-4w-k3n" secondAttribute="trailing" id="m2V-ot-Jhr"/>
+                    <constraint firstItem="QIQ-KK-MsG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="mGo-vM-B7B"/>
+                    <constraint firstAttribute="bottom" secondItem="1Fc-Ce-dkz" secondAttribute="bottom" id="mdI-q5-NpB"/>
+                    <constraint firstItem="1Fc-Ce-dkz" firstAttribute="width" secondItem="QIQ-KK-MsG" secondAttribute="width" id="n5y-33-LAm"/>
+                    <constraint firstItem="LDt-i9-Z5e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="rKv-C9-DhH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="afterSale" destination="U4U-4w-k3n" id="p4i-Ex-XbZ"/>
+                <outlet property="noPayment" destination="QIQ-KK-MsG" id="7SV-G9-4nT"/>
+                <outlet property="noReceive" destination="LDt-i9-Z5e" id="D4v-eA-RvS"/>
+                <outlet property="noSend" destination="1Fc-Ce-dkz" id="Npk-jW-kl3"/>
+                <outlet property="order" destination="28E-s1-VWk" id="wJz-ZK-sWI"/>
+                <outlet property="unread1" destination="y5t-cA-fJe" id="cdv-lT-geQ"/>
+                <outlet property="unread2" destination="dYD-8O-KtT" id="PfS-Cu-cFw"/>
+                <outlet property="unread3" destination="hej-Ta-Loq" id="Dzx-Tf-P0r"/>
+            </connections>
+            <point key="canvasLocation" x="33.600000000000001" y="79.160419790104953"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="个人中心-已购课程" width="26" height="26"/>
+    </resources>
+</document>

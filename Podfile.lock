@@ -1,0 +1,265 @@
+PODS:
+  - ACAlertController (1.0.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AgoraRtcEngine_iOS (2.3.3)
+  - BaiduMobStatCodeless (5.0.2)
+  - Bugly (2.5.0)
+  - DTCoreText (1.6.21):
+    - DTCoreText/Core (= 1.6.21)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.21):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.13)
+  - DTFoundation/DTAnimatedGIF (1.7.13)
+  - DTFoundation/DTHTMLParser (1.7.13):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.13):
+    - DTFoundation/Core
+  - FDStackView (1.0.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GGWkCookie (0.1.0)
+  - JCore (2.0.2)
+  - JPush (3.2.1):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - JSONModel (1.8.0)
+  - LXDTimerManager (1.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJPhotoBrowser (1.0.2):
+    - SDWebImage
+    - SVProgressHUD
+    - YLGIFImage
+  - MJRefresh (3.2.0)
+  - PINCache (2.3)
+  - PLVMarquee (0.0.4)
+  - PLVNetworkDiagnosisTool (0.0.1)
+  - PLVSubtitle (0.1.1)
+  - PLVTimer (0.0.3)
+  - PLVVodDanmu (0.0.1)
+  - PolyvAliHttpDNS (1.6.7)
+  - PolyvBusinessSDK (0.7.3):
+    - Masonry (~> 1.1)
+    - PolyvAliHttpDNS (~> 1.6.7)
+    - PolyvFoundationSDK (~> 0.6.3)
+    - PolyvIJKPlayer (~> 0.4.0)
+    - Socket.IO-Client-Swift (~> 13.2.0)
+    - Starscream (= 3.0.5)
+    - YYModel (~> 1.0.4)
+  - PolyvCloudClassSDK (0.8.0):
+    - AFNetworking (~> 3.2.1)
+    - AgoraRtcEngine_iOS (~> 2.3.1)
+    - PolyvBusinessSDK (~> 0.7.3)
+    - PolyvFoundationSDK (~> 0.6.3)
+    - SDWebImage (~> 4.4.0)
+  - PolyvFoundationSDK (0.6.3)
+  - PolyvIJKPlayer (0.4.0)
+  - PolyvVodSDK (2.5.6):
+    - PLVMarquee (~> 0.0.2)
+    - PLVNetworkDiagnosisTool (~> 0.0.1)
+    - PLVTimer (~> 0.0.2)
+    - PolyvAliHttpDNS (~> 1.6.7)
+    - PolyvIJKPlayer (~> 0.4.0)
+    - SSZipArchive (~> 2.1.1)
+    - WCDB (~> 1.0.6)
+  - QIYU_iOS_SDK (4.12.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - Socket.IO-Client-Swift (13.2.1):
+    - Starscream (~> 3.0.2)
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - SSZipArchive (2.1.5)
+  - Starscream (3.0.5)
+  - STPopup (1.8.7)
+  - SVProgressHUD (2.2.5)
+  - TZImagePickerController (3.2.1)
+  - UMengUShare/Core (6.4.8.2):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.8.2)
+  - UMengUShare/Social/QQ (6.4.8.2):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.8.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.8.2):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/WeChat (6.4.8.2):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI (6.4.8.2):
+    - UMengUShare/Core
+  - WCDB (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+  - XRCarouselView (2.6.1)
+  - YLGIFImage (0.11)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - ACAlertController
+  - AFNetworking
+  - BaiduMobStatCodeless
+  - Bugly
+  - DTCoreText
+  - FDStackView (~> 1.0.1)
+  - FMDB
+  - GGWkCookie
+  - JPush
+  - JSONModel
+  - LXDTimerManager
+  - Masonry
+  - MBProgressHUD
+  - MJPhotoBrowser
+  - MJRefresh
+  - PINCache
+  - PLVSubtitle (~> 0.1.0)
+  - PLVVodDanmu (~> 0.0.1)
+  - PolyvCloudClassSDK (~> 0.8.0)
+  - PolyvVodSDK (~> 2.5.6)
+  - QIYU_iOS_SDK (~> 4.12.0)
+  - ReactiveObjC
+  - SDWebImage (~> 4.4.0)
+  - STPopup
+  - TZImagePickerController
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/Sina
+  - UMengUShare/Social/WeChat
+  - UMengUShare/UI
+  - XRCarouselView (~> 2.6.1)
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ACAlertController
+    - AFNetworking
+    - AgoraRtcEngine_iOS
+    - BaiduMobStatCodeless
+    - Bugly
+    - DTCoreText
+    - DTFoundation
+    - FDStackView
+    - FMDB
+    - GGWkCookie
+    - JCore
+    - JPush
+    - JSONModel
+    - LXDTimerManager
+    - Masonry
+    - MBProgressHUD
+    - MJPhotoBrowser
+    - MJRefresh
+    - PINCache
+    - PLVMarquee
+    - PLVNetworkDiagnosisTool
+    - PLVSubtitle
+    - PLVTimer
+    - PLVVodDanmu
+    - PolyvAliHttpDNS
+    - PolyvBusinessSDK
+    - PolyvCloudClassSDK
+    - PolyvFoundationSDK
+    - PolyvIJKPlayer
+    - PolyvVodSDK
+    - QIYU_iOS_SDK
+    - ReactiveObjC
+    - SDWebImage
+    - Socket.IO-Client-Swift
+    - SQLiteRepairKit
+    - SSZipArchive
+    - Starscream
+    - STPopup
+    - SVProgressHUD
+    - TZImagePickerController
+    - UMengUShare
+    - WCDB
+    - WCDBOptimizedSQLCipher
+    - XRCarouselView
+    - YLGIFImage
+    - YYKit
+    - YYModel
+
+SPEC CHECKSUMS:
+  ACAlertController: 10f0455c3e1691a6197b5cd0d96d6f9a03c82763
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AgoraRtcEngine_iOS: 8ad4b58dafed2cec5df03fa1f0ddbdad2c9ff958
+  BaiduMobStatCodeless: 8f786558168e5af04c7dab92d0f314ca9f043007
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  DTCoreText: e5d688cffc9f6a61eddd1a4f94e2046851230de3
+  DTFoundation: f03be9fd786f11e505bb8fc44e2a3732bf0917df
+  FDStackView: fc0697e5be2022c8af36ce66e9e2061006058ba8
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GGWkCookie: 6b62f0463fb04b7ba779c8bfdcc01867c9ac9fcb
+  JCore: d4cbe6d178eaeb0ed263e42a6ebcb617855ef7cb
+  JPush: a1ff8b8ec53fa3419b414946e4db4efa313baeae
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  LXDTimerManager: 21b0342971634a2e871511b7ece920a64a552a83
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJPhotoBrowser: b98b04d0e3b6a999feb44df68adec413af446809
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PLVMarquee: 7b22d5a12868817642e0a71cf4aa5ccc285b8a22
+  PLVNetworkDiagnosisTool: e8a098546d30c12f7d1c917d8e43f10941f1bc5d
+  PLVSubtitle: e2466b1be11abe3290aee18a130f9143f48ae90f
+  PLVTimer: 134c9e234b9e8b6f521d7920eb504e1bd2f4fe1c
+  PLVVodDanmu: 7f6663e2bbc3bf93a94b9bd3a404e1760b3d3511
+  PolyvAliHttpDNS: 0fbbbcd3aab07a48305d36884681ca33849cc0b7
+  PolyvBusinessSDK: 34e846f46d5a5ccb29c96d786c1457f301370e7e
+  PolyvCloudClassSDK: 0e88b67e0035b0aa37abd4a7e1431564ba0e5536
+  PolyvFoundationSDK: 77a99ba862f2cca6b664ed902a04d8d369c6791b
+  PolyvIJKPlayer: 42fccc693f21a89e6b5229430f0afb9b43fbcd0f
+  PolyvVodSDK: e82b6d7067d215dc1aaa5e51b4b3e4f2ecc8cfa6
+  QIYU_iOS_SDK: cd99fc3b9d8a74f134b501c2e13f47ed0ddfb8a9
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  Socket.IO-Client-Swift: b94943e2fb916fe2f95244b9ed21828634002280
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  SSZipArchive: cefe1364104a0231268a5deb8495bdf2861f52f0
+  Starscream: faf918b2f2eff7d5dd21180646bf015a669673bd
+  STPopup: a9045557bc48a0df51fbb7bf0544447c5fe84d34
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: bf4c57b98d8707fce41ea6be872414a71c7a8c9d
+  UMengUShare: 370d180101e13ee0227ae657ab119ba97243d2b3
+  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+  XRCarouselView: d3f949d1601e7de51604cdabd6e2f35a770e0f99
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 2c43e80dfc575c33b470bceb40588cdb9ca5660a
+
+COCOAPODS: 1.5.3

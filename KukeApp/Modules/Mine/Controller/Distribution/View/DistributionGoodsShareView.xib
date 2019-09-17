@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DistributionGoodsShareView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DistributionGoodsShareView">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="672"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LCI-rD-n0p" customClass="DistributionBottomShareView">
+                    <rect key="frame" x="0.0" y="563" width="372" height="109"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="保存图片" translatesAutoresizingMaskIntoConstraints="NO" id="Dbq-WH-gmF">
+                            <rect key="frame" x="37" y="21" width="45" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <gestureRecognizers/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="s8U-IF-aGO" appends="YES" id="Z6V-yE-szr"/>
+                            </connections>
+                        </imageView>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="朋友圈" translatesAutoresizingMaskIntoConstraints="NO" id="24z-CX-kRv">
+                            <rect key="frame" x="289" y="21" width="45" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <gestureRecognizers/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="fqB-wo-lbl" appends="YES" id="BAy-vK-g02"/>
+                            </connections>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="保存图片" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsT-V5-GZH">
+                            <rect key="frame" x="35" y="74" width="50" height="15"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="微信" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dY1-Z1-jll">
+                            <rect key="frame" x="121" y="74" width="45" height="15"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QQ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xps-ss-tNa">
+                            <rect key="frame" x="200" y="74" width="56" height="15"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="朋友圈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GE5-Dp-chT">
+                            <rect key="frame" x="279" y="74" width="67" height="15"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l立即分享-微信" translatesAutoresizingMaskIntoConstraints="NO" id="ETB-xO-PEw">
+                            <rect key="frame" x="121" y="21" width="45" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <gestureRecognizers/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="RSI-0c-hfe" appends="YES" id="eKF-Ag-2zz"/>
+                            </connections>
+                        </imageView>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="立即分享-qq" translatesAutoresizingMaskIntoConstraints="NO" id="4Z5-TX-s6b">
+                            <rect key="frame" x="205" y="21" width="45" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <gestureRecognizers/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="FwT-4m-yJl" appends="YES" id="KL4-mE-mU0"/>
+                            </connections>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="fourLab" destination="GE5-Dp-chT" id="sw2-PF-5Oa"/>
+                        <outlet property="fristLab" destination="YsT-V5-GZH" id="9RI-5C-Zqh"/>
+                        <outlet property="pyqImage" destination="24z-CX-kRv" id="EP9-32-LfK"/>
+                        <outlet property="qqImage" destination="4Z5-TX-s6b" id="Lex-iU-1pu"/>
+                        <outlet property="secondLab" destination="dY1-Z1-jll" id="aVS-76-D1X"/>
+                        <outlet property="threeLab" destination="Xps-ss-tNa" id="wZt-Hi-p5h"/>
+                        <outlet property="wbImage" destination="Dbq-WH-gmF" id="JyA-Bg-or4"/>
+                        <outlet property="wxImage" destination="ETB-xO-PEw" id="ZXF-qK-pI6"/>
+                    </connections>
+                </view>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WPg-KD-QLp">
+                    <rect key="frame" x="43" y="92" width="286" height="433"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7XJ-UD-wOT">
+                    <rect key="frame" x="329" y="57" width="27" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="4二维码关闭按钮"/>
+                    <connections>
+                        <action selector="closeAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="hd2-Rf-Dtr"/>
+                        <action selector="closeAction:" destination="LCI-rD-n0p" eventType="touchUpInside" id="v7L-Bv-uea"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="shareImage" destination="WPg-KD-QLp" id="S9y-Qm-9bs"/>
+            </connections>
+            <point key="canvasLocation" x="49.600000000000001" y="48.575712143928037"/>
+        </view>
+        <tapGestureRecognizer id="RSI-0c-hfe">
+            <connections>
+                <action selector="wxshareAction:" destination="iN0-l3-epB" id="pha-6B-Q5H"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="FwT-4m-yJl">
+            <connections>
+                <action selector="qqShareAction:" destination="iN0-l3-epB" id="0lf-K4-EMw"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="s8U-IF-aGO">
+            <connections>
+                <action selector="wbShareAction:" destination="iN0-l3-epB" id="vu9-Xa-B4N"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="fqB-wo-lbl">
+            <connections>
+                <action selector="pyqShareAction:" destination="iN0-l3-epB" id="imn-lP-No1"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="4二维码关闭按钮" width="27" height="27"/>
+        <image name="l立即分享-微信" width="45.5" height="45"/>
+        <image name="保存图片" width="45.5" height="45.5"/>
+        <image name="朋友圈" width="45.5" height="45.5"/>
+        <image name="立即分享-qq" width="45.5" height="45"/>
+    </resources>
+</document>

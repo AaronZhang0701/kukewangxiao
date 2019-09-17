@@ -1,0 +1,160 @@
+//
+//  PrefixHeader.pch
+//  KukeApp
+//
+//  Created by iOSDeveloper on 2018/8/10.
+//  Copyright © 2018年 zhangming. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//=====================单例==================
+// @interface
+#define singleton_interface(className) \
++ (className *)shared;
+
+
+// @implementation
+#define singleton_implementation(className) \
+static className *_instance; \
++ (id)allocWithZone:(NSZone *)zone \
+{ \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_instance = [super allocWithZone:zone]; \
+}); \
+return _instance; \
+} \
++ (className *)shared \
+{ \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_instance = [[self alloc] init]; \
+}); \
+return _instance; \
+}
+//========================end==================
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UMSocialCore/UMSocialCore.h>
+#import <UShareUI/UShareUI.h>
+#import <AFNetworking/AFNetworking.h>
+#import <PINCache/PINCache.h>
+#import <FMDB/FMDB.h>
+#import <JSONModel/JSONModel.h>
+#import <YYKit/YYKit.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <Masonry/Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#import <PLVVodSDK/PLVVodSDK.h>
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <MJRefresh/MJRefresh.h>
+#import <MJPhotoBrowser/MJPhotoBrowser.h>
+
+//#import <DTAttributedTextCell.h>
+#import <DTCoreText/DTCoreText.h>
+
+#import "ZMNetworkHelper.h"
+#import "AppDelegate.h"
+#import "AppDelegate+AppService.h"
+#import "RootViewController.h"
+#import "RootNavigationController.h"
+#import "AppManager.h"
+#import "ShareManager.h"
+#import "UserManager.h"
+#import "IMManager.h"
+#import "JXCategoryView.h"
+#import "UtilsMacros.h"
+#import "LEEAlert.h" 
+
+#import "ZMTimeCountDown.h"
+#import "ZLAlertView.h"
+#import "BaseTools.h"
+#import "UIButton+AICategory.h"
+#import "UIView+Common.h"
+#import "NSString+ZMAdd.h"
+#import "UIDevice+ZMKit.h"
+#import "MBProgressHUD+XY.h"
+#import "UIColor+ZMColor.h"
+#import "UIButton+Timer.h"
+
+#import "HomePageBannerViewController.h"
+#import "SGBrowserView.h"
+#import "BaseAlertView.h"
+
+//#import <HelpDesk/HelpDesk.h>
+//#import "HelpDeskUI.h"
+#import "UIImageView+WebCache.h"
+//#import "LocalDefine.h"
+//#import "CSDemoAccountManager.h"
+//#import "AppDelegate+HelpDesk.h"
+#import "NSString+KKString.h"
+
+#import "UserInfoTool.h"
+#import "CurrentUserInfo.h"
+#import "UserDefaultsUtils.h"
+#import "MenuDataTool.h"
+#import "APIHeader.h"
+#import "NY_AddressListVC.h"
+
+#import <AlipaySDK/AlipaySDK.h>
+#import <WXApi.h>
+#import <WXApiObject.h>
+#import "UIViewController+HeadFunction.h"
+
+#import "YBPopupMenu.h"
+#import "NSMutableArray+ZMAdd.h"
+#import "NSDate+category.h"
+#import "SafeKit.h"
+
+#import "OpenUDID.h"
+
+#import "JKCountDownButton.h"
+
+#import "ZMBaseViewController.h"
+#import "ZMBaseTableViewController.h"
+//#import "UINavigationController+Addtion.h"
+#import "BANetManager_OC.h"
+#import "RootNavigationController.h"
+#import "UICollectionView+EmptyDataSet.h"
+#import "UITableView+EmptyDataSet.h"
+//#import "BAKit_WebView.h"
+#import "RootWebViewController.h"
+#import "UIButton+EnlargeTouchArea.h"
+#import "KefuViewController.h"
+#import "IAPManager.h"
+#import "SandBoxHelper.h"
+#import "DownLoadVideoDataBaseTool.h"
+#import <LXDTimerManager/NSObject+PerformTimer.h>
+#import "UIView+Frame.h"
+#import "UIView+LXShadowPath.h"
+#import "MyLearningListViewController.h"
+#import "CourseDetailViewController.h"
+#import "NewCourseListModel.h"
+#import "JPUSHService.h"
+#import "MyAnswerRecordListViewController.h"
+#import "MyCourseAndTestTableViewController.h"
+#import "TGRefresh.h"
+#import "PolyvLiveOrVodPlayerManager.h"
+//#import "ShareInstallSDK.h"
+#import "BAWebViewController.h"
+#import "AppDelegate+Polyv.h"
+#import <PolyvCloudClassSDK/PLVLiveVideoConfig.h>
+#import <PolyvBusinessSDK/PLVVodConfig.h>
+#import <QYPOPSDK.h>
+#import <QYSDK.h>
+#import "NSDictionary+ZMAdd.h"
+#import "OpenInstallSDK.h"
+#import "EasyShowView.h"
+#import "CoreStatus.h"
+#import "ZMTableViewDelegate.h"
+#import "ZMTableViewDataSource.h"
+#import "ZMBaseCollectionViewController.h"
+#import "ZMBaseGroupTableViewController.h"
+//#import <VisitorSDK_HSFramework/CSWorkerModel.h>
+//#import <VisitorSDK_HSFramework/CSChatViewController.h>
+//#import <VisitorSDK_HSFramework/CSConfigHeader.h>
+//#import <VisitorSDK_HSFramework/CSManager.h>
+#endif /* PrefixHeader_pch */
