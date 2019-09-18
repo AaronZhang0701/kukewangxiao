@@ -65,7 +65,7 @@
 		// 记忆播放位置
         self.rememberLastPosition = YES;
 	}
-//    [self createRemoteCommandCenter];
+    
 	[super setVideo:video quality:quality];
 	if (!video.available) return;
 	dispatch_async(dispatch_get_main_queue(), ^{
@@ -106,6 +106,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 	
+    // 接收远程事件
+    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+    [self becomeFirstResponder];
+    [self createRemoteCommandCenter];
+    
 	self.automaticallyAdjustsScrollViewInsets = NO;
 	
 	[self setupSkin];
@@ -137,9 +142,9 @@
 	};
 	
 	// 开启后台播放
-//    self.enableBackgroundPlayback = YES;
+    self.enableBackgroundPlayback = YES;
 	
-//     自动播放
+    //自动播放
     self.autoplay = YES;
 	
     // 设置跑马灯
@@ -199,7 +204,10 @@
 		NSLog(@"player error: %@", error);
         
 	};
-    
+
+    self.playbackStateHandler = ^(PLVVodPlayerViewController *player) {
+        [weakSelf updateLockScreenInfo];
+    };
     // 恢复播放
     self.playbackRecoveryHandle = ^(PLVVodPlayerViewController *player) {
         
@@ -725,7 +733,7 @@
 	[self teaserStateDidChange];
 	
 	// 接收远程事件
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(remoteControlEventDidReceive:) name:PLVVodRemoteControlEventDidReceiveNotification object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(remoteControlEventDidReceive:) name:PLVVodRemoteControlEventDidReceiveNotification object:nil];
 }
 
 - (void)teaserStateDidChange {
@@ -789,9 +797,22 @@
     PLVVodPlayerSkin *skinController = (PLVVodPlayerSkin *)self.playerControl;
     return skinController.isLockScreen;
 }
-//#pragma mark -- 锁屏播放控制器相关
+#pragma mark -- 锁屏播放控制器相关
 // 更新锁屏界面信息
-//- (void)updateLockScreenInfo {
+- (void)updateLockScreenInfo {
+    NSMutableDictionary *playbackInfo = [MPNowPlayingInfoCenter defaultCenter].nowPlayingInfo.mutableCopy;
+    if (!playbackInfo.count)
+        playbackInfo = [NSMutableDictionary dictionary];
+    // 2、设置歌曲名
+    //        [playbackInfo setObject:@"库课网校"
+    //                            forKey:MPMediaItemPropertyTitle];
+    [playbackInfo setObject:[NSString stringWithFormat:@"课时%@·%@",self.videoInfo[@"number"],self.videoInfo[@"title"]]
+                     forKey:MPMediaItemPropertyAlbumTitle];
+    playbackInfo[MPNowPlayingInfoPropertyElapsedPlaybackTime] = @(self.currentPlaybackTime);
+    //        playbackInfo[MPNowPlayingInfoPropertyPlaybackRate] = @(self.playbackRate);
+    playbackInfo[MPMediaItemPropertyPlaybackDuration] = @(self.duration);
+    [MPNowPlayingInfoCenter defaultCenter].nowPlayingInfo = playbackInfo;
+
 //
 //    if (!_player) {
 //        return;
@@ -831,83 +852,83 @@
 //
 //    //音乐信息赋值给获取锁屏中心的nowPlayingInfo属性
 //    playingInfoCenter.nowPlayingInfo = playingInfoDict;
-//}
+}
 
-//// 添加远程控制
-//- (void)createRemoteCommandCenter {
-//
-//    MPRemoteCommandCenter *commandCenter = [MPRemoteCommandCenter sharedCommandCenter];
-//
-//    MPRemoteCommand *pauseCommand = [commandCenter pauseCommand];
-//    [pauseCommand setEnabled:YES];
-//    [pauseCommand addTarget:self action:@selector(pause)];
-//
-//    MPRemoteCommand *playCommand = [commandCenter playCommand];
-//    [playCommand setEnabled:YES];
-//    [playCommand addTarget:self action:@selector(play)];
-//
-//    //    MPRemoteCommand *nextCommand = [commandCenter nextTrackCommand];
-//    //    [nextCommand setEnabled:YES];
-//    //    [nextCommand addTarget:self action:@selector(remoteNextEvent)];
-//    //
-//    //    MPRemoteCommand *previousCommand = [commandCenter previousTrackCommand];
-//    //    [previousCommand setEnabled:YES];
-//    //    [previousCommand addTarget:self action:@selector(remotePreviousEvent)];
-//    //
-//    if (@available(iOS 9.1, *)) {
-//        MPRemoteCommand *changePlaybackPositionCommand = [commandCenter changePlaybackPositionCommand];
-//        [changePlaybackPositionCommand setEnabled:YES];
-//        [changePlaybackPositionCommand addTarget:self action:@selector(remoteChangePlaybackPosition:)];
-//    }
-//}
-//- (void)remoteChangePlaybackPosition:(MPRemoteCommandEvent *)event {
-//
-//    MPChangePlaybackPositionCommandEvent * playbackPositionEvent = (MPChangePlaybackPositionCommandEvent *)event;
-//    self.currentPlaybackTime = playbackPositionEvent.positionTime;
-//}
+// 添加远程控制
+- (void)createRemoteCommandCenter {
 
-// 处理远程事件
-- (void)remoteControlEventDidReceive:(NSNotification *)notification {
-    UIEvent *event = notification.userInfo[PLVVodRemoteControlEventKey];
-    if (event.type == UIEventTypeRemoteControl) {
-        // 更新控制中心
-        NSMutableDictionary *playbackInfo = [MPNowPlayingInfoCenter defaultCenter].nowPlayingInfo.mutableCopy;
-        if (!playbackInfo.count)
-            playbackInfo = [NSMutableDictionary dictionary];
-        // 2、设置歌曲名
-        //        [playbackInfo setObject:@"库课网校"
-        //                            forKey:MPMediaItemPropertyTitle];
-        [playbackInfo setObject:[NSString stringWithFormat:@"课时%@·%@",self.videoInfo[@"number"],self.videoInfo[@"title"]]
-                         forKey:MPMediaItemPropertyAlbumTitle];
-        playbackInfo[MPNowPlayingInfoPropertyElapsedPlaybackTime] = @(self.currentPlaybackTime);
-        //        playbackInfo[MPNowPlayingInfoPropertyPlaybackRate] = @(self.playbackRate);
-        playbackInfo[MPMediaItemPropertyPlaybackDuration] = @(self.duration);
-        [MPNowPlayingInfoCenter defaultCenter].nowPlayingInfo = playbackInfo;
-        
-        switch (event.subtype) {
-            case UIEventSubtypeRemoteControlPause:{
-                [self pause];
-            }break;
-            case UIEventSubtypeRemoteControlPlay:{
-                [self play];
-            }break;
-            case UIEventSubtypeRemoteControlTogglePlayPause:{
-                [self playPauseAction:nil];
-            }break;
-            case UIEventSubtypeRemoteControlPreviousTrack:{
-                
-            }break;
-            case UIEventSubtypeRemoteControlNextTrack:{
-                
-            }break;
-            case 5:{
-                
-            }break;
-            default:{
-                
-            }break;
-        }
+    MPRemoteCommandCenter *commandCenter = [MPRemoteCommandCenter sharedCommandCenter];
+
+    MPRemoteCommand *pauseCommand = [commandCenter pauseCommand];
+    [pauseCommand setEnabled:YES];
+    [pauseCommand addTarget:self action:@selector(pause)];
+
+    MPRemoteCommand *playCommand = [commandCenter playCommand];
+    [playCommand setEnabled:YES];
+    [playCommand addTarget:self action:@selector(play)];
+
+    //    MPRemoteCommand *nextCommand = [commandCenter nextTrackCommand];
+    //    [nextCommand setEnabled:YES];
+    //    [nextCommand addTarget:self action:@selector(remoteNextEvent)];
+    //
+    //    MPRemoteCommand *previousCommand = [commandCenter previousTrackCommand];
+    //    [previousCommand setEnabled:YES];
+    //    [previousCommand addTarget:self action:@selector(remotePreviousEvent)];
+    //
+    if (@available(iOS 9.1, *)) {
+        MPRemoteCommand *changePlaybackPositionCommand = [commandCenter changePlaybackPositionCommand];
+        [changePlaybackPositionCommand setEnabled:YES];
+        [changePlaybackPositionCommand addTarget:self action:@selector(remoteChangePlaybackPosition:)];
     }
 }
+- (void)remoteChangePlaybackPosition:(MPRemoteCommandEvent *)event {
+
+    MPChangePlaybackPositionCommandEvent * playbackPositionEvent = (MPChangePlaybackPositionCommandEvent *)event;
+    self.currentPlaybackTime = playbackPositionEvent.positionTime;
+}
+
+//// 处理远程事件
+//- (void)remoteControlEventDidReceive:(NSNotification *)notification {
+//    UIEvent *event = notification.userInfo[PLVVodRemoteControlEventKey];
+//    if (event.type == UIEventTypeRemoteControl) {
+//        // 更新控制中心
+//        NSMutableDictionary *playbackInfo = [MPNowPlayingInfoCenter defaultCenter].nowPlayingInfo.mutableCopy;
+//        if (!playbackInfo.count)
+//            playbackInfo = [NSMutableDictionary dictionary];
+//        // 2、设置歌曲名
+//        //        [playbackInfo setObject:@"库课网校"
+//        //                            forKey:MPMediaItemPropertyTitle];
+//        [playbackInfo setObject:[NSString stringWithFormat:@"课时%@·%@",self.videoInfo[@"number"],self.videoInfo[@"title"]]
+//                         forKey:MPMediaItemPropertyAlbumTitle];
+//        playbackInfo[MPNowPlayingInfoPropertyElapsedPlaybackTime] = @(self.currentPlaybackTime);
+//        //        playbackInfo[MPNowPlayingInfoPropertyPlaybackRate] = @(self.playbackRate);
+//        playbackInfo[MPMediaItemPropertyPlaybackDuration] = @(self.duration);
+//        [MPNowPlayingInfoCenter defaultCenter].nowPlayingInfo = playbackInfo;
+//
+//        switch (event.subtype) {
+//            case UIEventSubtypeRemoteControlPause:{
+//                [self pause];
+//            }break;
+//            case UIEventSubtypeRemoteControlPlay:{
+//                [self play];
+//            }break;
+//            case UIEventSubtypeRemoteControlTogglePlayPause:{
+//                [self playPauseAction:nil];
+//            }break;
+//            case UIEventSubtypeRemoteControlPreviousTrack:{
+//
+//            }break;
+//            case UIEventSubtypeRemoteControlNextTrack:{
+//
+//            }break;
+//            case 5:{
+//
+//            }break;
+//            default:{
+//
+//            }break;
+//        }
+//    }
+//}
 
 @end

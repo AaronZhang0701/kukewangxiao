@@ -12,9 +12,9 @@
 -(void)setupWithPolyvOption:(NSDictionary *)launchOptions{
     [self initPLVVod];
     [self initPLVLive];
-    // 接收远程事件
-    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
-    [self becomeFirstResponder];
+//    // 接收远程事件
+//    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
+//    [self becomeFirstResponder];
     
 }
 #pragma mark ————— 保利威直播 初始化 —————
@@ -42,10 +42,10 @@
    
     
 }
-/// 转发远程事件
-- (void)remoteControlReceivedWithEvent:(UIEvent *)event {
-    [[NSNotificationCenter defaultCenter] postNotificationName:PLVVodRemoteControlEventDidReceiveNotification object:self userInfo:@{PLVVodRemoteControlEventKey: event}];
-}
+///// 转发远程事件
+//- (void)remoteControlReceivedWithEvent:(UIEvent *)event {
+//    [[NSNotificationCenter defaultCenter] postNotificationName:PLVVodRemoteControlEventDidReceiveNotification object:self userInfo:@{PLVVodRemoteControlEventKey: event}];
+//}
 #pragma mark ————— 保利威点播 初始化 —————
 -(void)initPLVVod{
 

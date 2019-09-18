@@ -57,7 +57,7 @@
 	[player addPlayerOnPlaceholderView:self.playerPlaceholder rootViewController:self];
 	self.player = player;
     player.rememberLastPosition = YES;
-//    player.enableBackgroundPlayback = YES;
+    player.enableBackgroundPlayback = YES;
 	NSString *vid = self.vid;
     if (self.localVideo){
         // 本地播放
